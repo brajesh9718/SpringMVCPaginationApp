@@ -31,11 +31,13 @@
 			  </table>
 			  
 			  <!-- Pagination links in spring mvc. -->			  
-			  <ul class="pagination pagination-sm">
-			  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/1">1</a></li>
-			  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/2">2</a></li>
-			  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/3">3</a></li>
-			  </ul>
+				  <ul class="pagination pagination-sm">
+				    <li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/1">Prev</a></li>
+				  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/1">1</a></li>
+				  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/2">2</a></li>
+				  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/3">3</a></li>
+				  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/1">Next</a></li>
+				  </ul>
 	    </div>		
 	</body>
 </html>

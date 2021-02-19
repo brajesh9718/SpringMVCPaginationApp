@@ -13,7 +13,6 @@
 		<div class="container">
 	    	<h2 align="center" class="text-primary">Spring Mvc Pagination Example</h2><hr />
 	    	<div>&nbsp;</div>
-	    	
 	    	<!-- Table to show the data fetched from the db. -->   	    	
 	        <table class="table" align="center">
 			    <thead>
@@ -29,14 +28,16 @@
 				    </c:forEach>
 			    </tbody>
 			  </table>
+			  <h2>Page Number :  ${pageId}</h2>
 			  
 			  <!-- Pagination links in spring mvc. -->			  
 				  <ul class="pagination pagination-sm">
-				    <li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/1">Prev</a></li>
+				    <li class="page-item"><a class="page-link" href="/SpringMvcPagination/navig/prev/${pageId}">Prev</a></li>
 				  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/1">1</a></li>
 				  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/2">2</a></li>
 				  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/3">3</a></li>
-				  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/1">Next</a></li>
+				  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/init/4">4</a></li>
+				  	<li class="page-item"><a class="page-link" href="/SpringMvcPagination/navig/next/${pageId}">Next</a></li>
 				  </ul>
 	    </div>		
 	</body>
